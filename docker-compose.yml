@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  kick-notifier:
+    build: .
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - KICK_USERNAME=${KICK_USERNAME}
+    restart: unless-stopped

@@ -1,0 +1,16 @@
+{
+  "id": "kick-notifier",
+  "name": "Kick Notifier",
+  "version": "0.1.0",
+  "description": "Kick.com yayını başladığında Telegram grubuna bildirim gönderir.",
+  "releaseNotes": "İlk sürüm",
+  "developer": {
+    "name": "bizimdeniz",
+    "email": "example@mail.com",
+    "website": "https://github.com/bizimdeniz"
+  },
+  "repository": "https://github.com/bizimdeniz/kick-notifier",
+  "license": "MIT",
+  "dependencies": [],
+  "dockerComposeFile": "docker-compose.yml"
+}
